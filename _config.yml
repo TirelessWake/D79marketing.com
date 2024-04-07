@@ -1,0 +1,57 @@
+url: https://d79marketing.com
+baseurl: 
+
+# Site settings
+title: D79 Marketing
+email: d79marketing@gmail.com
+description: "Bringing Our Best Every Day To Help You Deliver Your Best"
+
+
+# Team names, titles and social links
+people:
+- name: Design
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Marketing
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Communications
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/d79marketing
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 18733 15th St, 
+  - line: Drakesville, IA 52552
+
+# Build settings
+markdown: kramdown
+permalink: pretty
