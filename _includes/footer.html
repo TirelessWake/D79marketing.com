@@ -1,9 +1,23 @@
+<section id="footer">
   <footer>
-        <div class="container">
+        <div class="container" style="color: white;">
             <div class="row">
+
+                <div class="col-md-4">
+                    <a class="navbar-brand page-scroll" href="#" data-toggle="modal" data-target="#contactmodal" style="text-shadow: 1px 1px 2px black">
+                        <img 
+                        width="contain" 
+                        height="80px"
+                        width=80px src="img/D79-Marketing-Large-Logo-w.svg"  
+                        alt="D79 Logo">                    
+                        </img>
+                    </a>
+                </div>
+
                 <div class="col-md-4">
                     <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
+
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
@@ -21,5 +35,22 @@
                     </ul>
                 </div>
             </div>
+
+            <div class="col-md-12">
+                <ul class="list-inline quicklinks">
+                    <li>
+                        <p style="font-size: small;"></style>
+                            </br>
+                            site powered by : <a href="https://tirelesswake.com">Tireless Wake Media </a>
+                            </br>
+                            All logos on the site are properties of their perspective owner. 
+                            We are not officially associated with Facebook, Google or any other third party. 
+                            Results vary.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </footer>
+</section>

@@ -1,14 +1,16 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503   
+  # primary: e99f00
+  primary: e96500
+  # secondary: fec503 
+  secondary: bd6b3c  
   secondary-dark: 333
-  muted: 777
+  muted: 999
 
 # Font Families
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  primary: '"Roboto", Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Roboto", "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 
 background-image:
-  idea.jpg
+  struggle.jpg
