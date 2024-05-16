@@ -56,7 +56,7 @@
                             </form> -->
 
 
-
+                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                             <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjnpqyn" method="post">
                               <fieldset id="fs-frm-inputs">
                                 <label for="full-name">Full Name</label>
@@ -65,8 +65,10 @@
                                 <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
                                 <label for="message">Message</label>
                                 <textarea rows="5" name="message" id="message" placeholder="I'd like the free 7 step plan... " required=""></textarea>
-                                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission - 7 Step Plan">
                               </fieldset>
+                              <div class="g-recaptcha" data-sitekey="6LdK294pAAAAALwfKAVPe27bOhdWNEUKivGgdpgW"></div> <!-- replace with your recaptcha SITE key not secret key -->
+                              <br/>
                               <input type="submit" value="Submit">
                             </form><style>/* reset */
                             #fs-frm input,
