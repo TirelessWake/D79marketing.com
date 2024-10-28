@@ -696,7 +696,7 @@ section#expect {
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;
-    color: #00ccff;
+    color: #ff6100;
 }
 
 
@@ -745,7 +745,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#results .text-primary {
-    color: #00ccff;
+    color: #ff6100;
 }
 
 section#bundle .text-muted {
@@ -753,7 +753,7 @@ section#bundle .text-muted {
 }
 
 section#bundle {
-    color: #00ccff;
+    color: #ff6100;
     margin-top: -12%;
 }
 
